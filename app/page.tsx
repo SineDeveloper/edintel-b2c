@@ -115,6 +115,7 @@ export default function Home() {
               <option value="IELTS">IELTS</option>
               <option value="Comprehensive">Comprehensive</option>
             </select>
+            <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">Hold Ctrl/Cmd to select multiple courses</p>
           </div>
 
           <div className="pt-4">
