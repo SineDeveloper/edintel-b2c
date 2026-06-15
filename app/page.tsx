@@ -1,4 +1,10 @@
+import React, { useState } from 'react';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+
 export default function Home() {
+  const [startDate, setStartDate] = useState<Date | null>(null);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -83,10 +89,12 @@ export default function Home() {
 
           <div>
             <label htmlFor="00Ng700000C6Adh" className="block text-sm font-medium text-gray-700">Date of Birth</label>
-            <input 
-              id="00Ng700000C6Adh" 
-              name="00Ng700000C6Adh" 
-              type="text" 
+            <DatePicker
+              id="00Ng700000C6Adh"
+              name="00Ng700000C6Adh"
+              selected={startDate}
+              onChange={(date: Date | null) => setStartDate(date)}
+              dateFormat="dd/MM/yyyy"
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             />
           </div>
