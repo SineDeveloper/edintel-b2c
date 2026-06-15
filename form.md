@@ -39,12 +39,16 @@
 
 <label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
 
-Date of Birth:<span class="dateInput dateOnlyInput"><input  id="00Ng700000C6Adh" name="00Ng700000C6Adh" size="12" type="text" /></span><br>
-
 Preferred Branch:<select  id="00Ng700000C5dQ1" name="00Ng700000C5dQ1" title="Preferred Branch"><option value="">--None--</option><option value="Bangkapi">Bangkapi</option>
 <option value="Silom">Silom</option>
 <option value="Chaengwattana">Chaengwattana</option>
 <option value="Chonburi">Chonburi</option>
+</select><br>
+
+Interesting Course:<select  id="00Ng700000C6ERB" multiple="multiple" name="00Ng700000C6ERB" title="Interesting Course"><option value="Writing">Writing</option>
+<option value="Listening/Speaking">Listening/Speaking</option>
+<option value="IELTS">IELTS</option>
+<option value="Comprehensive">Comprehensive</option>
 </select><br>
 
 <input type="submit" name="submit">

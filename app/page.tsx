@@ -101,6 +101,22 @@ export default function Home() {
             />
           </div>
 
+          <div>
+            <label htmlFor="00Ng700000C6ERB" className="block text-sm font-medium text-gray-700">Interesting Course</label>
+            <select 
+              id="00Ng700000C6ERB" 
+              name="00Ng700000C6ERB" 
+              multiple
+              title="Interesting Course"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            >
+              <option value="Writing">Writing</option>
+              <option value="Listening/Speaking">Listening/Speaking</option>
+              <option value="IELTS">IELTS</option>
+              <option value="Comprehensive">Comprehensive</option>
+            </select>
+          </div>
+
           <div className="pt-4">
             <input 
               type="submit" 
