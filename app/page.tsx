@@ -99,6 +99,7 @@ export default function Home() {
               dateFormat="dd/MM/yyyy"
               className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
             />
+            <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">Format: DD/MM/YYYY</p>
           </div>
 
           <div>
