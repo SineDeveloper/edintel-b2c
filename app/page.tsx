@@ -30,6 +30,8 @@ export default function Home() {
         >
           <input type="hidden" name="oid" value="00Dg70000087CJB" />
           <input type="hidden" name="retURL" value="https://edintel-b2c.vercel.app/thank-you" />
+          <input type="hidden" name="currency" value="THB" />
+          <input type="hidden" name="lead_source" value="Web" />
           
           <motion.div
             initial={{ opacity: 0, x: -20 }}

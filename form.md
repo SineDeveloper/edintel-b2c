@@ -51,6 +51,13 @@ Interesting Course:<select  id="00Ng700000C6ERB" multiple="multiple" name="00Ng7
 <option value="Comprehensive">Comprehensive</option>
 </select><br>
 
+<label for="currency"><span class="assistiveText">*</span>Lead Currency</label><select  id="currency" name="currency"><option value="MMK">MMK - Myanmar Kyat</option>
+<option value="THB" selected="selected">THB - Thai Baht</option>
+</select><br>
+
+<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="Web">Web</option>
+</select><br>
+
 <input type="submit" name="submit">
 
 </form>
