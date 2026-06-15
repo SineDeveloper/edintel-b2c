@@ -78,14 +78,15 @@ export default function Home() {
           </div>
 
           <div>
-            <label htmlFor="00Ng700000C5dQ1" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Preferred Branch</label>
+            <label htmlFor="00Ng700000C5dQ1" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Preferred Branch <span className="text-red-500">*</span></label>
             <select 
               id="00Ng700000C5dQ1" 
               name="00Ng700000C5dQ1" 
               title="Preferred Branch"
+              required
               className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
             >
-              <option value="">--None--</option>
+              <option value="">--Please select--</option>
               <option value="Bangkapi">Bangkapi</option>
               <option value="Silom">Silom</option>
               <option value="Chaengwattana">Chaengwattana</option>
@@ -94,7 +95,7 @@ export default function Home() {
           </div>
 
           <div>
-            <label htmlFor="00Ng700000C6Adh" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Date of Birth</label>
+            <label htmlFor="00Ng700000C6Adh" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Date of Birth <span className="text-red-500">*</span></label>
             <DatePicker
               id="00Ng700000C6Adh"
               name="00Ng700000C6Adh"
@@ -107,12 +108,13 @@ export default function Home() {
           </div>
 
           <div>
-            <label htmlFor="00Ng700000C6ERB" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Interesting Course</label>
+            <label htmlFor="00Ng700000C6ERB" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Interesting Course <span className="text-red-500">*</span></label>
             <select 
               id="00Ng700000C6ERB" 
               name="00Ng700000C6ERB" 
               multiple
               title="Interesting Course"
+              required
               className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
             >
               <option value="Writing">Writing</option>
